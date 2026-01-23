@@ -114,28 +114,6 @@ Inkflow/
 
 ---
 
-## Implementation Status
-
-### ✅ Phase 1: Core Canvas Engine
-- [x] Canvas rendering
-- [x] Basic drawing tools
-- [x] Zoom/pan gestures
-- [x] Undo/redo system
-
-### ✅ Phase 2: One UI–Inspired Interface
-- [x] Bottom-aligned tool dock
-- [x] Floating color picker
-- [x] Polished animations
-
-### ✅ Phase 4-5: Advanced Tools & Polish
-- [x] Text Tool implementation
-- [x] Selection & Transformation
-- [x] Retina Display Support
-- [x] Touch Bar Integration
-- [x] App Icon & Assets
-
----
-
 ## Contributing
 
 Contributions, feedback, and feature requests are welcome! Please feel free to open an issue or submit a pull request.
