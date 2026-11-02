@@ -1,0 +1,66 @@
+name: Inkflow
+options:
+  bundleIdPrefix: com.pranavdwivedi
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    MARKETING_VERSION: "2.0.0"
+    CURRENT_PROJECT_VERSION: "3"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    DEAD_CODE_STRIPPING: YES
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+
+targets:
+  Inkflow:
+    type: application
+    platform: macOS
+    sources:
+      - path: Inkflow
+    settings:
+      base:
+        PRODUCT_NAME: Inkflow
+        PRODUCT_BUNDLE_IDENTIFIER: com.pranavdwivedi.Inkflow
+        INFOPLIST_FILE: Inkflow/Resources/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Inkflow/Resources/Inkflow.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_HARDENED_RUNTIME: YES
+        COMBINE_HIDPI_IMAGES: YES
+
+  InkflowTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: InkflowTests
+    dependencies:
+      - target: Inkflow
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.pranavdwivedi.InkflowTests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Inkflow.app/Contents/MacOS/Inkflow"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+
+schemes:
+  Inkflow:
+    build:
+      targets:
+        Inkflow: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - InkflowTests
+    profile:
+      config: Release
+    archive:
+      config: Release

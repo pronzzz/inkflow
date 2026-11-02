@@ -3,322 +3,338 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A11111110000000000000001 /* InkflowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001 /* InkflowApp.swift */; };
-		A11111110000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* ContentView.swift */; };
-		A11111110000000000000003 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000003 /* CanvasView.swift */; };
-		A11111110000000000000004 /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* CanvasViewModel.swift */; };
-		A11111110000000000000005 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* Tool.swift */; };
-		A11111110000000000000006 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* Stroke.swift */; };
-		A11111110000000000000007 /* BrushEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000007 /* BrushEngine.swift */; };
-		A11111110000000000000008 /* CanvasRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000008 /* CanvasRenderer.swift */; };
-		A11111110000000000000009 /* GestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000009 /* GestureHandler.swift */; };
-		A11111110000000000000010 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* Extensions.swift */; };
-		A11111110000000000000011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* Assets.xcassets */; };
-		A11111110000000000000013 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* ColorTheme.swift */; };
-		A11111110000000000000014 /* AnimationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* AnimationConstants.swift */; };
-		A11111110000000000000015 /* KeyboardShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* KeyboardShortcut.swift */; };
-		A11111110000000000000016 /* KeyboardHintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* KeyboardHintView.swift */; };
-		A11111110000000000000017 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* ColorPickerView.swift */; };
-		A11111110000000000000018 /* DocumentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* DocumentData.swift */; };
-		A11111110000000000000019 /* InkflowDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* InkflowDocument.swift */; };
-		A11111110000000000000020 /* ImageExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000020 /* ImageExporter.swift */; };
-		A11111110000000000000021 /* CanvasElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000021 /* CanvasElement.swift */; };
-		A11111110000000000000022 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000022 /* Layer.swift */; };
-		A11111110000000000000023 /* LayersPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000023 /* LayersPanel.swift */; };
-		A11111110000000000000041 /* FocusedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000041 /* FocusedValues.swift */; };
+		0E28E35CF70B8A9E7ED10700 /* ShortcutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF5A34578CB7C45C6C9582 /* ShortcutsView.swift */; };
+		0F01F2CA7874B40548D3304C /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7302C662C85CD8638CAA1E /* Demo.swift */; };
+		2A039862623B70C0F85C6A97 /* InkflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C73A6DC8D568C50C0DEE7 /* InkflowTests.swift */; };
+		2CBFEFE38AC8F42A971D76D9 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622486267266DE4469216BA7 /* Tool.swift */; };
+		3895AC21F084AFF260D27E94 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B76525D237F471940DD1E3 /* Drawing.swift */; };
+		4416025F0AD8B9831B31BCB2 /* ToolPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9599AD827D1C519BEE347 /* ToolPalette.swift */; };
+		5025DF53179C8AEF0734288D /* LegacyFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53AF7BCEB795E362206B824 /* LegacyFormat.swift */; };
+		5041CCEC0E87B042183EA9CA /* LayersPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A7529A289B8C302BCF59EE /* LayersPanel.swift */; };
+		5994DE6A2E4E1668019762C5 /* InkflowDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88859202EF65313042450CCA /* InkflowDocument.swift */; };
+		9BEDDAC4E7476C801B211631 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C630D31D79158CB4B229FF /* Renderer.swift */; };
+		AA1F1801533A13BAA63A07B4 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83601DE9958DDD02E22F462F /* Launch.swift */; };
+		BE77CB640D29A3F7208C2B32 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF78E10C8853DD0DCEB2020 /* CanvasView.swift */; };
+		C2F6AA4DF5D8326B80E51DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B4BE787F29706701DB3B71 /* Assets.xcassets */; };
+		DDD56124CD9A7E0A89B230AF /* Editor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC8E9A9E939FEE0D50EAE02 /* Editor.swift */; };
+		E453AD8711E75B263C241621 /* InkflowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE79487385C12D970C7A1A0E /* InkflowApp.swift */; };
+		E7D724441AAC0A466E724977 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553EF325D7840B1F558EFBC2 /* Geometry.swift */; };
+		E97DDE2EC58691A6CB92EF76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA7E56C5EC1662A657E8FB /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1C5D2A4FEA5AB404C9D2C996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C4A0BE77C97C47A3DC4675F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDC0B7F0D148FC61EAD1BEA;
+			remoteInfo = Inkflow;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		A10000000000000000000000 /* Inkflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inkflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A10000000000000000000001 /* InkflowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkflowApp.swift; sourceTree = "<group>"; };
-		A10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A10000000000000000000003 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
-		A10000000000000000000004 /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
-		A10000000000000000000005 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
-		A10000000000000000000006 /* Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
-		A10000000000000000000007 /* BrushEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrushEngine.swift; sourceTree = "<group>"; };
-		A10000000000000000000008 /* CanvasRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasRenderer.swift; sourceTree = "<group>"; };
-		A10000000000000000000009 /* GestureHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureHandler.swift; sourceTree = "<group>"; };
-		A10000000000000000000010 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		A10000000000000000000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A10000000000000000000012 /* Inkflow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inkflow.entitlements; sourceTree = "<group>"; };
-		A10000000000000000000013 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
-		A10000000000000000000014 /* AnimationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationConstants.swift; sourceTree = "<group>"; };
-		A10000000000000000000015 /* KeyboardShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardShortcut.swift; sourceTree = "<group>"; };
-		A10000000000000000000016 /* KeyboardHintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHintView.swift; sourceTree = "<group>"; };
-		A10000000000000000000017 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
-		A10000000000000000000018 /* DocumentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentData.swift; sourceTree = "<group>"; };
-		A10000000000000000000019 /* InkflowDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkflowDocument.swift; sourceTree = "<group>"; };
-		A10000000000000000000020 /* ImageExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExporter.swift; sourceTree = "<group>"; };
-		A10000000000000000000021 /* CanvasElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasElement.swift; sourceTree = "<group>"; };
-		A10000000000000000000022 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
-		A10000000000000000000023 /* LayersPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayersPanel.swift; sourceTree = "<group>"; };
-		A10000000000000000000041 /* FocusedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedValues.swift; sourceTree = "<group>"; };
+		12B9599AD827D1C519BEE347 /* ToolPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolPalette.swift; sourceTree = "<group>"; };
+		24A7529A289B8C302BCF59EE /* LayersPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayersPanel.swift; sourceTree = "<group>"; };
+		40FA7E56C5EC1662A657E8FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		553EF325D7840B1F558EFBC2 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		5AC8E9A9E939FEE0D50EAE02 /* Editor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor.swift; sourceTree = "<group>"; };
+		5C7302C662C85CD8638CAA1E /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		622486267266DE4469216BA7 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		65F4777FF25177DC3D60098E /* Inkflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inkflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83601DE9958DDD02E22F462F /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		88859202EF65313042450CCA /* InkflowDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkflowDocument.swift; sourceTree = "<group>"; };
+		91BF5A34578CB7C45C6C9582 /* ShortcutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsView.swift; sourceTree = "<group>"; };
+		AD178BDDE8F0D76C64984FCA /* Inkflow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inkflow.entitlements; sourceTree = "<group>"; };
+		B78C73A6DC8D568C50C0DEE7 /* InkflowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkflowTests.swift; sourceTree = "<group>"; };
+		B9C630D31D79158CB4B229FF /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		C53AF7BCEB795E362206B824 /* LegacyFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyFormat.swift; sourceTree = "<group>"; };
+		D14C5D543F2E0A2C93674206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D9B4BE787F29706701DB3B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0541B7EF54BEC35710E677C /* InkflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InkflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B76525D237F471940DD1E3 /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		FAF78E10C8853DD0DCEB2020 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		FE79487385C12D970C7A1A0E /* InkflowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkflowApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		A12000000000000000000001 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		A13000000000000000000000 = {
+		0856A8864358CEA29FBA3721 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A13000000000000000000001 /* Inkflow */,
-				A13000000000000000000010 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		A13000000000000000000001 /* Inkflow */ = {
-			isa = PBXGroup;
-			children = (
-				A10000000000000000000001 /* InkflowApp.swift */,
-				A13000000000000000000002 /* Views */,
-				A13000000000000000000003 /* ViewModels */,
-				A13000000000000000000004 /* Models */,
-				A13000000000000000000014 /* Document */,
-				A13000000000000000000005 /* Engine */,
-				A13000000000000000000006 /* Rendering */,
-				A13000000000000000000007 /* Input */,
-				A13000000000000000000008 /* Utils */,
-				A13000000000000000000012 /* Themes */,
-				A13000000000000000000009 /* Resources */,
-				A10000000000000000000012 /* Inkflow.entitlements */,
-			);
-			path = Inkflow;
-			sourceTree = "<group>";
-		};
-		A13000000000000000000002 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A10000000000000000000002 /* ContentView.swift */,
-				A10000000000000000000016 /* KeyboardHintView.swift */,
-				A10000000000000000000023 /* LayersPanel.swift */,
-				A13000000000000000000011 /* Canvas */,
-				A13000000000000000000013 /* ColorPicker */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		A13000000000000000000003 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				A10000000000000000000004 /* CanvasViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		A13000000000000000000004 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A10000000000000000000005 /* Tool.swift */,
-				A10000000000000000000006 /* Stroke.swift */,
-				A10000000000000000000015 /* KeyboardShortcut.swift */,
-				A10000000000000000000021 /* CanvasElement.swift */,
-				A10000000000000000000022 /* Layer.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		A13000000000000000000005 /* Engine */ = {
-			isa = PBXGroup;
-			children = (
-				A10000000000000000000007 /* BrushEngine.swift */,
-			);
-			path = Engine;
-			sourceTree = "<group>";
-		};
-		A13000000000000000000006 /* Rendering */ = {
-			isa = PBXGroup;
-			children = (
-				A10000000000000000000008 /* CanvasRenderer.swift */,
-			);
-			path = Rendering;
-			sourceTree = "<group>";
-		};
-		A13000000000000000000007 /* Input */ = {
-			isa = PBXGroup;
-			children = (
-				A10000000000000000000009 /* GestureHandler.swift */,
-			);
-			path = Input;
-			sourceTree = "<group>";
-		};
-		A13000000000000000000008 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				A10000000000000000000010 /* Extensions.swift */,
-				A10000000000000000000014 /* AnimationConstants.swift */,
-				A10000000000000000000041 /* FocusedValues.swift */,
-				A10000000000000000000020 /* ImageExporter.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		A13000000000000000000009 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A10000000000000000000011 /* Assets.xcassets */,
+				D9B4BE787F29706701DB3B71 /* Assets.xcassets */,
+				D14C5D543F2E0A2C93674206 /* Info.plist */,
+				AD178BDDE8F0D76C64984FCA /* Inkflow.entitlements */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		A13000000000000000000010 /* Products */ = {
+		0EAF947D8C19E52667B560C0 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000000 /* Inkflow.app */,
+				40FA7E56C5EC1662A657E8FB /* ContentView.swift */,
+				24A7529A289B8C302BCF59EE /* LayersPanel.swift */,
+				91BF5A34578CB7C45C6C9582 /* ShortcutsView.swift */,
+				12B9599AD827D1C519BEE347 /* ToolPalette.swift */,
 			);
-			name = Products;
+			path = UI;
 			sourceTree = "<group>";
 		};
-		A13000000000000000000011 /* Canvas */ = {
+		1EAAF094EF3A623C95C2EA18 /* InkflowTests */ = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000003 /* CanvasView.swift */,
+				B78C73A6DC8D568C50C0DEE7 /* InkflowTests.swift */,
+			);
+			path = InkflowTests;
+			sourceTree = "<group>";
+		};
+		2A850689BCC44822B2A45CE2 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				FAF78E10C8853DD0DCEB2020 /* CanvasView.swift */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
 		};
-		A13000000000000000000012 /* Themes */ = {
+		802094E9CE3EBD2D9FDFE905 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000013 /* ColorTheme.swift */,
+				65F4777FF25177DC3D60098E /* Inkflow.app */,
+				E0541B7EF54BEC35710E677C /* InkflowTests.xctest */,
 			);
-			path = Themes;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		A13000000000000000000013 /* ColorPicker */ = {
+		81094FF2C376EFA34EE3789F /* Engine */ = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000017 /* ColorPickerView.swift */,
+				553EF325D7840B1F558EFBC2 /* Geometry.swift */,
+				B9C630D31D79158CB4B229FF /* Renderer.swift */,
 			);
-			path = ColorPicker;
+			path = Engine;
 			sourceTree = "<group>";
 		};
-		A13000000000000000000014 /* Document */ = {
+		9BDAE68FDCD259F76DCB76E4 = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000018 /* DocumentData.swift */,
-				A10000000000000000000019 /* InkflowDocument.swift */,
+				FDB9E042C365428C65F30852 /* Inkflow */,
+				1EAAF094EF3A623C95C2EA18 /* InkflowTests */,
+				802094E9CE3EBD2D9FDFE905 /* Products */,
 			);
-			path = Document;
+			sourceTree = "<group>";
+		};
+		A6A40093731AECF006B38C17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7B76525D237F471940DD1E3 /* Drawing.swift */,
+				88859202EF65313042450CCA /* InkflowDocument.swift */,
+				C53AF7BCEB795E362206B824 /* LegacyFormat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E23E4C669BBEE34158AAB100 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5C7302C662C85CD8638CAA1E /* Demo.swift */,
+				5AC8E9A9E939FEE0D50EAE02 /* Editor.swift */,
+				FE79487385C12D970C7A1A0E /* InkflowApp.swift */,
+				83601DE9958DDD02E22F462F /* Launch.swift */,
+				622486267266DE4469216BA7 /* Tool.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FDB9E042C365428C65F30852 /* Inkflow */ = {
+			isa = PBXGroup;
+			children = (
+				E23E4C669BBEE34158AAB100 /* App */,
+				2A850689BCC44822B2A45CE2 /* Canvas */,
+				81094FF2C376EFA34EE3789F /* Engine */,
+				A6A40093731AECF006B38C17 /* Model */,
+				0856A8864358CEA29FBA3721 /* Resources */,
+				0EAF947D8C19E52667B560C0 /* UI */,
+			);
+			path = Inkflow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A14000000000000000000001 /* Inkflow */ = {
+		2ECD69E18A50326D55C59641 /* InkflowTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A16000000000000000000001 /* Build configuration list for PBXNativeTarget "Inkflow" */;
+			buildConfigurationList = 5EEBD2F2A04667A5152331BB /* Build configuration list for PBXNativeTarget "InkflowTests" */;
 			buildPhases = (
-				A14000000000000000000002 /* Sources */,
-				A12000000000000000000001 /* Frameworks */,
-				A14000000000000000000003 /* Resources */,
+				714877C058004BA7903606AE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2C3F25C386DD8CB453788B5 /* PBXTargetDependency */,
+			);
+			name = InkflowTests;
+			packageProductDependencies = (
+			);
+			productName = InkflowTests;
+			productReference = E0541B7EF54BEC35710E677C /* InkflowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CDC0B7F0D148FC61EAD1BEA /* Inkflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85713D1502B621C8E17A2AA /* Build configuration list for PBXNativeTarget "Inkflow" */;
+			buildPhases = (
+				37FED6260BA4E80DD2E6FF76 /* Sources */,
+				EEB39568C56F0158F13B2FF6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Inkflow;
+			packageProductDependencies = (
+			);
 			productName = Inkflow;
-			productReference = A10000000000000000000000 /* Inkflow.app */;
+			productReference = 65F4777FF25177DC3D60098E /* Inkflow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A15000000000000000000001 /* Project object */ = {
+		3C4A0BE77C97C47A3DC4675F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 2620;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A14000000000000000000001 = {
-						CreatedOnToolsVersion = 15.0;
+					2ECD69E18A50326D55C59641 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					5CDC0B7F0D148FC61EAD1BEA = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = A16000000000000000000002 /* Build configuration list for PBXProject "Inkflow" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 5A333B8AE0CCF2E64F68E876 /* Build configuration list for PBXProject "Inkflow" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = A13000000000000000000000;
-			productRefGroup = A13000000000000000000010 /* Products */;
+			mainGroup = 9BDAE68FDCD259F76DCB76E4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 802094E9CE3EBD2D9FDFE905 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A14000000000000000000001 /* Inkflow */,
+				5CDC0B7F0D148FC61EAD1BEA /* Inkflow */,
+				2ECD69E18A50326D55C59641 /* InkflowTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A14000000000000000000003 /* Resources */ = {
+		EEB39568C56F0158F13B2FF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11111110000000000000011 /* Assets.xcassets in Resources */,
+				C2F6AA4DF5D8326B80E51DCC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A14000000000000000000002 /* Sources */ = {
+		37FED6260BA4E80DD2E6FF76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11111110000000000000001 /* InkflowApp.swift in Sources */,
-				A11111110000000000000002 /* ContentView.swift in Sources */,
-				A11111110000000000000003 /* CanvasView.swift in Sources */,
-				A11111110000000000000004 /* CanvasViewModel.swift in Sources */,
-				A11111110000000000000005 /* Tool.swift in Sources */,
-				A11111110000000000000006 /* Stroke.swift in Sources */,
-				A11111110000000000000007 /* BrushEngine.swift in Sources */,
-				A11111110000000000000008 /* CanvasRenderer.swift in Sources */,
-				A11111110000000000000009 /* GestureHandler.swift in Sources */,
-				A11111110000000000000010 /* Extensions.swift in Sources */,
-				A11111110000000000000013 /* ColorTheme.swift in Sources */,
-				A11111110000000000000014 /* AnimationConstants.swift in Sources */,
-				A11111110000000000000041 /* FocusedValues.swift in Sources */,
-				A11111110000000000000015 /* KeyboardShortcut.swift in Sources */,
-				A11111110000000000000016 /* KeyboardHintView.swift in Sources */,
-				A11111110000000000000017 /* ColorPickerView.swift in Sources */,
-				A11111110000000000000018 /* DocumentData.swift in Sources */,
-				A11111110000000000000019 /* InkflowDocument.swift in Sources */,
-				A11111110000000000000020 /* ImageExporter.swift in Sources */,
-				A11111110000000000000021 /* CanvasElement.swift in Sources */,
-				A11111110000000000000022 /* Layer.swift in Sources */,
-				A11111110000000000000023 /* LayersPanel.swift in Sources */,
+				BE77CB640D29A3F7208C2B32 /* CanvasView.swift in Sources */,
+				E97DDE2EC58691A6CB92EF76 /* ContentView.swift in Sources */,
+				0F01F2CA7874B40548D3304C /* Demo.swift in Sources */,
+				3895AC21F084AFF260D27E94 /* Drawing.swift in Sources */,
+				DDD56124CD9A7E0A89B230AF /* Editor.swift in Sources */,
+				E7D724441AAC0A466E724977 /* Geometry.swift in Sources */,
+				E453AD8711E75B263C241621 /* InkflowApp.swift in Sources */,
+				5994DE6A2E4E1668019762C5 /* InkflowDocument.swift in Sources */,
+				AA1F1801533A13BAA63A07B4 /* Launch.swift in Sources */,
+				5041CCEC0E87B042183EA9CA /* LayersPanel.swift in Sources */,
+				5025DF53179C8AEF0734288D /* LegacyFormat.swift in Sources */,
+				9BEDDAC4E7476C801B211631 /* Renderer.swift in Sources */,
+				0E28E35CF70B8A9E7ED10700 /* ShortcutsView.swift in Sources */,
+				2CBFEFE38AC8F42A971D76D9 /* Tool.swift in Sources */,
+				4416025F0AD8B9831B31BCB2 /* ToolPalette.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714877C058004BA7903606AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A039862623B70C0F85C6A97 /* InkflowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E2C3F25C386DD8CB453788B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDC0B7F0D148FC61EAD1BEA /* Inkflow */;
+			targetProxy = 1C5D2A4FEA5AB404C9D2C996 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		A17000000000000000000001 /* Debug */ = {
+		3B65954A13EB2DF876298FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Inkflow/Resources/Inkflow.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Inkflow/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavdwivedi.Inkflow;
+				PRODUCT_NAME = Inkflow;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6E4DBBE1104B865D7B69236F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavdwivedi.InkflowTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inkflow.app/Contents/MacOS/Inkflow";
+			};
+			name = Debug;
+		};
+		6F13F1FA2E2DC08CBE60A211 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -344,19 +360,122 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7D5C1B4C8DDA4D8F083D3195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Inkflow/Resources/Inkflow.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Inkflow/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavdwivedi.Inkflow;
+				PRODUCT_NAME = Inkflow;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		99454BF89ECF2F6DFC668F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranavdwivedi.InkflowTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inkflow.app/Contents/MacOS/Inkflow";
+			};
+			name = Release;
+		};
+		E40EDF803B1242775F6F8B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -365,158 +484,49 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		A17000000000000000000002 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-			};
-			name = Release;
-		};
-		A17000000000000000000003 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Inkflow/Inkflow.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "";
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readwrite;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Inkflow/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Inkflow;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Pranav Dwivedi. All rights reserved.";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pranavdwivedi.Inkflow;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
-		};
-		A17000000000000000000004 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Inkflow/Inkflow.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "";
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readwrite;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Inkflow/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Inkflow;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Pranav Dwivedi. All rights reserved.";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pranavdwivedi.Inkflow;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A16000000000000000000001 /* Build configuration list for PBXNativeTarget "Inkflow" */ = {
+		5A333B8AE0CCF2E64F68E876 /* Build configuration list for PBXProject "Inkflow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A17000000000000000000003 /* Debug */,
-				A17000000000000000000004 /* Release */,
+				E40EDF803B1242775F6F8B2A /* Debug */,
+				6F13F1FA2E2DC08CBE60A211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		A16000000000000000000002 /* Build configuration list for PBXProject "Inkflow" */ = {
+		5EEBD2F2A04667A5152331BB /* Build configuration list for PBXNativeTarget "InkflowTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A17000000000000000000001 /* Debug */,
-				A17000000000000000000002 /* Release */,
+				6E4DBBE1104B865D7B69236F /* Debug */,
+				99454BF89ECF2F6DFC668F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
+		};
+		B85713D1502B621C8E17A2AA /* Build configuration list for PBXNativeTarget "Inkflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B65954A13EB2DF876298FA3 /* Debug */,
+				7D5C1B4C8DDA4D8F083D3195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A15000000000000000000001 /* Project object */;
+	rootObject = 3C4A0BE77C97C47A3DC4675F /* Project object */;
 }
